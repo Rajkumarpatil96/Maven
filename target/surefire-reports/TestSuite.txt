@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.704 sec <<< FAILURE!
+ValidateMargin(Testing.Testclass1)  Time elapsed: 0.178 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "PomPackage.StatementPage.ClickOnButton()" because "this.statement1" is null
+	at Testing.Testclass1.ValidateMargin(Testclass1.java:21)
+
